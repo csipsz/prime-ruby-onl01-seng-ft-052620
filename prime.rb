@@ -1,7 +1,10 @@
 require 'pry'
 
 def prime?(num)
-  dividers = (2..(num - 1)).to_a
-  binding.pry
-  dividers.any? {|divider| num % divider == 0}
+  if num > 2 
+    if num % 2 == 0 || num % 3
+      false 
+    end
+  end 
+  true
 end
