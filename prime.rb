@@ -1,3 +1,3 @@
 def prime?(num)
-  dividers = 
+  dividers = (1..num)
 end
