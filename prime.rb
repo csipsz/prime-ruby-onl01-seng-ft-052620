@@ -2,7 +2,7 @@ require 'pry'
 
 def prime?(num)
   if num > 2 
-    if num % 2 == 0 || num % 3
+    if num % 2 == 0 || num % 3 == 0 
       false 
     end
   end 
